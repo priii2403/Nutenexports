@@ -1,0 +1,92 @@
+.navbar {
+  width: 100%;
+  /* padding: 20px; */
+  background-color: #121426;
+  color:#ffff
+}
+
+.container-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  /* max-width: 1200px; */
+  /* padding: 0 20px; */
+}
+.container-link {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-family: Futura, sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 500px;
+}
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 180%;
+  left: 0;
+  background-color: rgba(30, 31, 47, 0.8); /* Transparent background */
+  color: #121426;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.logo {
+  color: #fff; /* Adjust the color as needed */
+  text-decoration: none;
+  /* font-weight: bold; */
+}
+.link{
+  background-color: #121426;
+}
+
+.navbar-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-top: 10px;
+  margin-left: 150px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #fff; /* Adjust the color as needed */
+  font-size: 1rem;
+  font-weight: 500;
+  /* transition: color 0.3s ease; */
+}
+
+.navbar-links a:hover {
+  color: #f37736; 
+  text-decoration: underline; 
+}
+
+
+.product-link:hover .sub-menu {
+  display: block;
+}
+
+.navbar-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar-links ul li {
+  position: relative;
+}
+
+.navbar-links ul li:hover .sub-menu {
+  display: block;
+}
